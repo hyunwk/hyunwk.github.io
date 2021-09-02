@@ -9,14 +9,14 @@ description: > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
-lang: ko # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: ko
+timezone: Asia/Seoul 
 theme: jekyll-text-theme
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
+  type      : "person"
   name      : hyunwkim
   url       :
   avatar    : # path or url of avatar image (square)
