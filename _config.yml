@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 ##############################
 lang: ko
 timezone: Asia/Seoul 
-theme: jekyll-text-theme
+  #theme: jekyll-text-theme
 
 ## => Author and Social
 ##############################
