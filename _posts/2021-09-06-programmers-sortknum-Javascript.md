@@ -6,7 +6,7 @@ categories: [Algorithm]
 
 ---
 
-## 문제 설명
+# 문제 설명
 배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.
 
 예를 들어 array가 [1, 5, 2, 6, 3, 7, 4], i = 2, j = 5, k = 3이라면
@@ -66,7 +66,7 @@ return commands.map(command => {
         return newArray[position - 1]
     })
 ```
-  ## 구조 분해 할당(Destructuring assignment)  
+## 구조 분해 할당(Destructuring assignment)  
 배열이나 객체의 속성을 해체하여 그 값을 개별 변수에 담을 수 있게 한다.   
 const [sPosition, ePosition, position] = command 
  
