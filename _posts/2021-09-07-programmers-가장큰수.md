@@ -11,16 +11,16 @@ categories: [Algorithm]
 0 또는 양의 정수가 주어졌을 때, 정수를 이어 붙여 만들 수 있는 가장 큰 수를 알아내 주세요.  
 예를 들어, 주어진 정수가 [6, 10, 2]라면 [6102, 6210, 1062, 1026, 2610, 2106]를 만들 수 있고, 이중 가장 큰 수는 6210입니다.  
 0 또는 양의 정수가 담긴 배열 numbers가 매개변수로 주어질 때, 순서를 재배치하여 만들 수 있는 가장 큰 수를 문자열로 바꾸어 return 하도록 solution 함수를 작성해주세요.
-
+<br><br>
 ### 제한사항
 - numbers의 길이는 1 이상 100,000 이하입니다.
 - numbers의 원소는 0 이상 1,000 이하입니다.
-- 정답이 너무 클 수 있으니 문자열로 바꾸어 return 합니다.  
+- 정답이 너무 클 수 있으니 문자열로 바꾸어 return 합니다. 
+<br><br>
 ### 입출력 예
-| numbers           | return    |
-|-------------------|-----------|
-| [6, 10, 2]        | "6210"    |
-| [3, 30, 34, 5, 9] | "9534330" |
+<img src="https://user-images.githubusercontent.com/34102064/132341916-de10d1d2-b4cc-4907-b5c2-c236fc000ecb.png" width="50%" height="50%">  
+<br><br><br>
+
 # 첫번째 코드
 ```js
 function solution(numbers) {
@@ -39,6 +39,7 @@ function solution(numbers) {
 }
 }
 ```  
+<br><br>
 # 풀이
 이 풀이에서 활용하고자 한 개념은 **js에서 문자 비교시 ascii 값으로 비교** 이다.
 ```
@@ -53,6 +54,8 @@ function solution(numbers) {
 따라서 3 이 30보다 큰 값으로 분류하려고
 while문으로 뒷자리가 0인 경우를 전부 지워줬다.  
 하지만 시간복잡도 초과로 실패. 
+
+<br><br>  
 # 두번째 코드
 ```js
 function solution(numbers) {
@@ -63,7 +66,7 @@ function solution(numbers) {
     return answer[0] === '0' ? '0' : answer; 
 }
 ```  
-
+<br><br>
 # 풀이
 1번 풀이와 동일하게 ascii코드로 값을 비교하는 개념을 사용하였다.  
 (b+a) - (a+b)를 사용한 이유는 0을 제거하지 않고도 아래 예시와 같이 문제에서 원하는 방식으로의 정렬이 된다.
