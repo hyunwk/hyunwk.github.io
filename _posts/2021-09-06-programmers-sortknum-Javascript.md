@@ -1,13 +1,13 @@
 ---
-title: Programmers 정렬-K번째수 Javascript 알고리즘 풀이
-tags: [Javascript, Algorithm, Programmers]
+title: Programmers 정렬-K번째수 Javascript
+tags: [Algorithm, Programmers]
 date: 2021-09-06 17:18:00 +09:00
 categories: [Algorithm]
 
 ---
 
 # 문제 설명
-링크 [here](https://programmers.co.kr/learn/courses/30/lessons/42748)
+[Programmers 문제](https://programmers.co.kr/learn/courses/30/lessons/42748)  
 배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.
 
 예를 들어 array가 [1, 5, 2, 6, 3, 7, 4], i = 2, j = 5, k = 3이라면
