@@ -1,7 +1,7 @@
 ---
-title: Programmers 정렬-H-Index Javascript
+title: Programmers 정렬 H-Index Javascript
 tags: [Algorithm, Programmers]
-date: 2021-09-08 13:18:00 +09:00
+date: 2021-09-08 15:18:00 +09:00
 categories: [Algorithm]
 
 ---
@@ -46,8 +46,7 @@ function solution(citations) {
 2. idx++
 2. citations[idx] >= c_len - idx
 ```
-citations = {0, 1, 3, 6, 5} 이고  
-idx = 1일 때  예를 들면
+citations = {0, 1, 3, 6, 5} 이고 idx = 1이라고 가정할 때 
 1. 1 <= 4  (1, 3, 6, 5 의 길이)  
 2. idx 1 증가
 3. citations[2] = 3이므로 3 >= 3 (5 - 2) 이므로 while문을 벗어난다.  
