@@ -1,7 +1,7 @@
 ---
 title: Programmers 정렬-H-Index Javascript
 tags: [Algorithm, Programmers]
-date: 2021-09-05 15:18:00 +09:00
+date: 2021-09-05 10:18:00 +09:00
 categories: [Algorithm]
 
 ---
