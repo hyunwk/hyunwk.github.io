@@ -95,6 +95,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll-sitemap
   jekyll-text-theme
 
 BUNDLED WITH
