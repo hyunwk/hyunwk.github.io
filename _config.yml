@@ -168,8 +168,9 @@ permalink   : date
 kramdown:
   highlighter: rouge
   syntax_highlighter_opts:
-    block:
       line_numbers: true
+        #    block:
+        #line_numbers: true
 
 exclude:
   - CHANGELOG.md
