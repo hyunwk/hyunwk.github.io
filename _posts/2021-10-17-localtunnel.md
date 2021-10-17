@@ -19,7 +19,7 @@ npx webpack serve
 
 2. package.json scripts에 등록한 경우
 
-![Untitled](Localtunnel%20%E1%84%8B%E1%85%AC%E1%84%87%E1%85%AE%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20localhost%20%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%A9%E1%86%A8%20248de45842eb45fab87b1b872f666d19/Untitled.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/101c3a2a-9e5e-4e98-b3e5-07928f74a62a/Untitled.png)
 
 ```html
 npm start
