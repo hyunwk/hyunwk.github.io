@@ -1,8 +1,8 @@
 ---
-title: Localtunnel 외부에서 localhost 접속
-tags: [Javascript]
+title: [Linux Server] Localtunnel 외부에서 localhost 접속
+tags: [Linux, Server]
 date: 2021-10-16 15:18:00 +09:00
-categories: [Server]
+categories: [Linux, Server]
 ---
 
 localtunnel github : [https://github.com/localtunnel/localtunnel](https://github.com/localtunnel/localtunnel)
