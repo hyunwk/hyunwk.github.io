@@ -30,7 +30,7 @@ React에서 사용하는 포트 번호를 확인한다.
 ![2](https://user-images.githubusercontent.com/34102064/137619110-e8f9e1fb-0229-4ece-9597-dc4f5e235f30.png)
 
 ```html
-http://localhost:**8080** [port]
+http://localhost:[port]
 ```
 
 # 2. localtunnel 설치 및 실행
@@ -75,23 +75,25 @@ npx localtunnel --port 8080
 
 ### 1. 터미널에서 명령어를 실행한다.
 
-```html
-lt --port 8080 --subdomain todo [포트번호] [도메인 이름 지정]
+```
+lt --port 8080 --subdomain todo
+   [포트번호]     [도메인 이름 지정]
 ```
 
 # 4. 에러 처리
 
 ### 1. Invalid Host Header error
 
-```html
-lt --port 8080 --subdomain todo [포트번호] [도메인 이름 지정]
+```
+lt --port 8080 --subdomain todo
+   [포트번호]     [도메인 이름 지정]
 ```
 
 위와 같이 실행하면 Invalid Host header 오류가 나는 경우가 있다.
 
-```html
-lt --port 8080 --subdomain todo --local-host localhost [포트번호] [도메인 이름
-지정] [localhost options]
+```
+lt --port 8080 --subdomain todo --local-host localhost
+      [포트번호] [도메인이름지정] [localhost options]
 ```
 
 [localhost](http://localhost) options을 지정하면 해결 된다.
