@@ -1,4 +1,9 @@
-# Localtunnel 외부에서 localhost 접속
+---
+title: Localtunnel 외부에서 localhost 접속
+tags: [Javascript]
+date: 2021-10-16 15:18:00 +09:00
+categories: [Server]
+---
 
 localtunnel github : [https://github.com/localtunnel/localtunnel](https://github.com/localtunnel/localtunnel)
 
@@ -25,8 +30,7 @@ React에서 사용하는 포트 번호를 확인한다.
 ![Untitled](Localtunnel%20%E1%84%8B%E1%85%AC%E1%84%87%E1%85%AE%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20localhost%20%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%A9%E1%86%A8%20248de45842eb45fab87b1b872f666d19/Untitled%201.png)
 
 ```html
-http://localhost:**8080**
-                [port]
+http://localhost:**8080** [port]
 ```
 
 # 2. localtunnel 설치 및 실행
@@ -72,8 +76,7 @@ npx localtunnel --port 8080
 ### 1. 터미널에서 명령어를 실행한다.
 
 ```html
-lt --port 8080 --subdomain todo 
-   [포트번호]    [도메인 이름 지정] 
+lt --port 8080 --subdomain todo [포트번호] [도메인 이름 지정]
 ```
 
 # 4. 에러 처리
@@ -81,15 +84,14 @@ lt --port 8080 --subdomain todo
 ### 1. Invalid Host Header error
 
 ```html
-lt --port 8080 --subdomain todo 
-   [포트번호]    [도메인 이름 지정] 
+lt --port 8080 --subdomain todo [포트번호] [도메인 이름 지정]
 ```
 
 위와 같이 실행하면 Invalid Host header 오류가 나는 경우가 있다.
 
 ```html
-lt --port 8080 --subdomain todo --local-host localhost
-   [포트번호]    [도메인 이름 지정]    [localhost options]
+lt --port 8080 --subdomain todo --local-host localhost [포트번호] [도메인 이름
+지정] [localhost options]
 ```
 
 [localhost](http://localhost) options을 지정하면 해결 된다.
