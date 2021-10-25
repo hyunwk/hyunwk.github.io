@@ -151,12 +151,12 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: "google" # false (default), "google", "custom"
 
   ## Google Analytics
   google:
     tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    anonymize_ip: true # Anonymize IP tracking for Analytics
 
 
 ## => Build
@@ -169,7 +169,8 @@ kramdown:
   highlighter: rouge
   syntax_highlighter_opts:
     block:
-       line_numbers: true
+      #line_numbers: true 21.10.20
+       line_numbers: false 
 
 exclude:
   - CHANGELOG.md
