@@ -1,7 +1,7 @@
 ---
 title: Beautifulsoup askdjango crawling Ajax
 tags: [Beautifulsoup, Python]
-date: 2021-10-26 12:18:00 +09:00
+date: 2021-10-28 12:18:00 +09:00
 categories: [Python]
 ---
 

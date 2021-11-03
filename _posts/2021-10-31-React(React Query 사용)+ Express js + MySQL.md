@@ -1,7 +1,7 @@
 ---
 title: React(React Query 사용)+ Express.js + MySQL 연동
 tags: [Python, MySQL, React]
-date: 2021-10-29 12:18:00 +09:00
+date: 2021-10-31 12:18:00 +09:00
 categories: [Python, React]
 ---
 
