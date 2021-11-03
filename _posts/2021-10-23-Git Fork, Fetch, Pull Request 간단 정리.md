@@ -1,7 +1,7 @@
 ---
 title: Git Fork, Fetch, Pull Request 간단 정리
 tags: [Git]
-date: 2021-10-28 12:18:00 +09:00
+date: 2021-10-23 12:18:00 +09:00
 categories: [Git]
 ---
 
