@@ -40,7 +40,7 @@ for th in th_all:
 
 Usually, [CSS selectors](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors) may help you solve it in one go except that not everything you can do with `find_all()` is possible with the `select()` method. For instance, there is no "text" search available in `bs4` CSS selectors. But, if, for example, you had to find all, say, `b` elements inside `th` elements, you could do:
 
-CSS Selectors에는 text 검색이 없다. 하지만 th태그 내 b태그를 찾는 경우 아래오 같이 할 수 있다.
+CSS Selectors에는 text 검색이 없다. 하지만 th태그 내 b태그를 찾는 경우 아래와 같이 할 수 있다.
 
 ```
 soup.select("th td")
