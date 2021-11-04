@@ -5,7 +5,7 @@ date: 2021-10-27 12:18:00 +09:00
 categories: [Python]
 ---
 
-## solution
+## select
 
 If you want to search for tags that match two or more CSS classes, you should use a CSS selector
 
@@ -24,7 +24,7 @@ soup('a')
 
 references : [https://beautiful-soup-4.readthedocs.io/en/latest/#calling-a-tag-is-like-calling-find-all](https://beautiful-soup-4.readthedocs.io/en/latest/#calling-a-tag-is-like-calling-find-all)
 
-## solution, find_all 차이
+## select, find_all 차이
 
 ResultSet = subclass of a list
 
