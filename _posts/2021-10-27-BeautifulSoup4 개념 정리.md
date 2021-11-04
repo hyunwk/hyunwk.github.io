@@ -29,9 +29,9 @@ soup.find(태그) ⇒ 해당하는 첫번째 태그 출력
 soup.find_all(태그) ⇒ 해당하는 모든 태그 출력
 
 ```python
-[<h5 class="card-title">Python for beginners</h5>,
+<h5 class="card-title">Python for beginners</h5>,
 <h5 class="card-title">Python Web Development</h5>,
-<h5 class="card-title">Python Machine Learning</h5>]
+<h5 class="card-title">Python Machine Learning</h5>
 ```
 
 ## 태그 내부 text 검색
@@ -59,12 +59,11 @@ Python for beginners
 3. 태그 내부에 a태그와 a.text를 가져온다.
 
 ```python
-courses_card = soup.find_all('div', class_='card')
-    for course in courses_card:
-        print(course.h5)
-        print(course.h5.text)
-        print(course.a)
-        print(course.a.text)
+courses_card = soup.find('div', class_='card')
+print(course.h5)
+print(course.h5.text)
+print(course.a)
+print(course.a.text)
 ```
 
 ```python
@@ -157,8 +156,7 @@ comp_name = job.find('h3', class_='joblist-comp-name')
 ```python
 <h3 class="joblist-comp-name">
     Surya Informatics Solutions Pvt. Ltd.
-
-    </h3>
+</h3>
 ```
 
 태그 내 태그
@@ -183,6 +181,7 @@ attribute 접근
 ```python
 <h2>
 	<a href="aa">
+</h2>
 ```
 
 인 경우 ['attribute'] 로 접근한다.
